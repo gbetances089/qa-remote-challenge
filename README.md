@@ -112,4 +112,6 @@ Start the worker and navigate to Operate and you will see your token has moved t
 node orchestrate-hiring.js
 ```
 
-As long the worker is runnning it will automatically request jobs, in our case of the type 'hiring'. That means, whenever we start a new instance of our process and the process token reaches the services task our worker will do the job. 
+As long the worker is runnning it will automatically request jobs, in our case of the type 'hiring'. That means, whenever we start a new instance of our process and the process token reaches the services task our worker will do the job.  
+
+Congratulations, you have automated a process!
