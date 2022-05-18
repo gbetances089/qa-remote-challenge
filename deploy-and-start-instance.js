@@ -17,9 +17,8 @@ void (async () => {
 
   // start an instance of the process
   const result = await zbc.createProcessInstance('hiring-process', {
-    message_content: 'Hello from the Camunda remote test challenge',
+    candidate_name: 'John Doe',
   })
   console.log(result)
-
 
 })()

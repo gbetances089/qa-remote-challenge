@@ -134,7 +134,6 @@ Please provide the result as a shared GitHub repo or send it as text/pdf file vi
 ### Additional Hints
 
 Please note that this is an open-ended test designed to show us your level of proficiency, there is no binary result.
-Please complete it within 10 days from now. We will then review your work and get back to you, typically within 3 working days. The next step will be a ~ 30-minute phone/video call to get to know you personally.
+Please complete it within 7 days from now. We will then review your work and get back to you, typically within 3 working days. The next step will be a ~ 30-minute phone/video call to get to know you personally.
 
-We wish you all the best and good luck!
-
+Happy testing! 

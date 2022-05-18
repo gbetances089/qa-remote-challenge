@@ -12,8 +12,8 @@ void (async () => {
   zbc.createWorker({
     taskType: 'hiring',
     taskHandler: (job, _, worker) => {
-      const { message_content } = job.variables
-      worker.log(`Received a new application from: ${message_content}`)
+      const { candidate_name } = job.variables
+      worker.log(`Received a new application from: ${candidate_name}`)
       job.complete()
     }
   })
