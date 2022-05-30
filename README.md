@@ -121,10 +121,10 @@ Congratulations, you have automated a process!
 
 ## Test Challenge
 
-In the section above you have learned how to prepare your test setup. We will now ask you to test a new feature in our process monitoring application [Operate](https://docs.camunda.io/docs/components/operate/). The feature is specified in the following [issue](https://github.com/mschoe/qa-remote-challenge/issues/1).
+In the section above you have learned how to prepare your test setup. We will now ask you to test a new feature manually in our process monitoring application [Operate](https://docs.camunda.io/docs/components/operate/). The feature is specified in the following [issue](https://github.com/mschoe/qa-remote-challenge/issues/1).
 
 This is your task:
-1. Transfer the requirements into detailed, comprehensive and well-structured test cases.
+1. Transfer the requirements into detailed, comprehensive and well-structured manual test cases.
 2. Could you suggest any improvements for the given requirements in the ticket?
 3. If you identify issues or potential improvements, please describe the bug/improvement and provide the steps to reproduce.
 4. Adjust the test setup according to your needs (for example to be able to start multiple instances or create variables with random values) and add the new code to the result. 
