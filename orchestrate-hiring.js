@@ -1,21 +1,21 @@
-const { ZBClient } = require('zeebe-node')
+const { ZBClient } = require("zeebe-node");
 
 void (async () => {
   const zbc = new ZBClient({
     camundaCloud: {
-      clusterId: 'clusterId-clusterId-clusterId', // look up the cluster id in the connection information of the client credentials in Console app
-      clientId: 'clientId-client-Id-clientId', // copy the client id from the client credential file
-      clientSecret: 'secret-secret-secret', // copy the client secret from the client credential file
-  }
-	})
+      clusterId: "71bc9c9f-eeb5-4df6-bbc6-429caba895ce",
+      clientId: "3l~QZXvY-6N~~oFSDhMO8-duMVXPnFIx",
+      clientSecret:
+        "0EiBydZhAdVm-nD8vOwO.ODTzpuYhxEMapT5mXmCMT95WWZ0iQP37dS-x3oN~a-T",
+    },
+  });
 
   zbc.createWorker({
-    taskType: 'hiring',
+    taskType: "hiring",
     taskHandler: (job, _, worker) => {
-      const { candidate_name } = job.variables
-      worker.log(`Received a new application from: ${candidate_name}`)
-      job.complete()
-    }
-  })
- 
-})()
+      const { candidate_name } = job.variables;
+      worker.log(`Received a new application from: ${candidate_name}`);
+      job.complete();
+    },
+  });
+})();
